@@ -99,6 +99,10 @@ nav a {
 
 
 /* main section styles */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 
@@ -123,4 +127,18 @@ nav a {
     font-weight: 400;
     line-height: 30px;
     width: 827px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.section-description{
+    padding: 30px 150px;
 }
